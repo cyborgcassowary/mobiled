@@ -1,6 +1,6 @@
-![PHP Mobile Detection with Cookies](http://www.ryanhettler.com/images/md_cookies.png)
+![PHP Mobile Detection with Cookies](http://www.ryanhettler.com/images/md_cookies_1.png)
 
-> Thanks goes out to [Mobile Detect](https://github.com/serbanghita/Mobile-Detect) for the helpful php library detecting if the device is mobile but not a tablet. Donate to Mobile Detect if the script helps.
+> Thanks goes out to [Mobile Detect](https://github.com/serbanghita/Mobile-Detect) for the helpful php library detecting if the device is mobile but not a tablet. Please, Donate to Mobile Detect the script helps.
 
 ### Instructions for Use
 #### Step 1 - Change the $URL Variable
