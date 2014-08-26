@@ -28,7 +28,7 @@ So, open up `mobile/index.php` and you will see this pretty little line:
 
          <?php setcookie("mobile_redirect", 1, time()+3600), '/', 'localhost:8888'; ?>
 
-Change `localhost:8888` to the url of your domain i.e. example.com or www.example.com. 
+Change `localhost:8888` to the url of your domain e.g. example.com or www.example.com. 
 
 
 
