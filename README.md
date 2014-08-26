@@ -4,7 +4,7 @@
 
 ### Instructions for Use
 #### Step 1 - Change the $URL Variable
-Open up `/includes/mobile/mobilecookieset.php` and change **$url** variable to the mobile redirect url e.g. **http://www.example.com/mobile/**
+Open up `/includes/mobilecookieset.php` and change **$url** variable to the mobile redirect url e.g. **http://www.example.com/mobile/**
 
 
 #### Step 2 - Code for all your pages
