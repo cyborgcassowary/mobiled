@@ -20,7 +20,7 @@ This line of code is meant for php files in a directory:
 
 
 #### Step 3 - Set Cookie for Domain.
-The `setcookie()` function in PHP has 7 parameters. They are **name**, **value**, **expire**, **path**, **domain**, **secure**, and **httponly**. The only one you will have to change is the domain parameter.
+The `setcookie()` function in PHP has 7 parameters. They are **name**, **value**, **expire**, **path**, **domain**, **secure**, and **httponly**. The only one you will have to change is the **domain** parameter.
 
          <?php setcookie( name, value, expire, path, domain ); ?>
 
