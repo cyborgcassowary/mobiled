@@ -9,7 +9,7 @@ Open up `/includes/mobile/mobilecookieset.php` and change **$url** variable to t
 
 #### Step 2 - Code for all your pages
 Include the code below at the top of all of your web pages. No spaces Before or After the PHP Tags. Spaces will cause errors or warnings and *Nobody's got time for that*. Make sure specific web page is pointing to the correct directory. For example, the following code is meant for php files on the root directory e.g. index.php:
-        <?php require_once('includes/mobile-detect/Mobile_Detect.php'); include_once('includes/mobilecookieset.php'); ?>  
+            <?php require_once('includes/mobile-detect/Mobile_Detect.php'); include_once('includes/mobilecookieset.php'); ?>  
 
 
 
@@ -21,7 +21,7 @@ This line of code is meant for php files in a directory:
 #### Step 3 - Set Cookie for Domain.
 The `setcookie()` function in PHP has 7 parameters. They are **name**, **value**, **expire**, **path**, **domain**, **secure**, and **httponly**. The only one you will have to change is the domain parameter.
 
-setcookie( *name*, *value*, *expire*, *path*, **domain** )
+            <?php setcookie( name, value, expire, path, domain ); ?>
 
 So, open up `mobile/index.php` and you will see this pretty little line:
 
@@ -33,12 +33,12 @@ Change `localhost:8888` to the url of your domain i.e. example.com or www.exampl
 
 #### Step 4 - check the cookie
 Everyone of the example pages has this line of code which tells the pages to print out all cookies: 
-        <!-- <?php print_r($_COOKIE); ?> -->
+         <?php print_r($_COOKIE); ?> 
 
 Two ways to view it, view the source of the web page or take out the html comments (<!-- -->).
 
 
-That's all. If any questions or comments, send me an email at ryan - at -ryanhettler - dot - com.
+That's all. If any questions, send me an email at ryan - at -ryanhettler - dot - com.
 
 
 
