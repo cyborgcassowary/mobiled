@@ -32,7 +32,7 @@ Change `localhost:8888` to the url of your domain i.e. example.com or www.exampl
 
 
 
-#### Step 4 - check the cookie
+#### Step 4 - Check the Cookie
 Everyone of the example pages has this line of code which tells the pages to print out all cookies: 
 
          <?php print_r($_COOKIE); ?>
